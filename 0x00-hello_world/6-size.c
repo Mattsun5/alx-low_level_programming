@@ -1,8 +1,7 @@
-#include <stdio>
+#include <stdio.h>
 /**
- *main- entry point
-
-return: zero if no error, non-zero if error
+ * main - entry point
+ * return: zero if no error, non-zero if error
  */
 int main (void)
 {
