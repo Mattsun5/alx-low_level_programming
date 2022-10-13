@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - entry point
- * return: zero if no error, non-zero if error
+ * Return: zero if no error, non-zero if error
  */
-int main (void)
+int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
 	printf("Size of an int: %ld byte(s)\n", sizeof(int));
