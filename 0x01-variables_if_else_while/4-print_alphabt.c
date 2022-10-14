@@ -16,5 +16,6 @@ int main(void)
 		}
 		alpha++;
 	}
+	printf("\n");
 	return (0);
 }
