@@ -11,7 +11,7 @@ int main(void)
 	num = 0;
 	while (num < 9)
 	{
-		num1 = num;
+		num1 = num + 1;
 		while (num1 < 10)
 		{
 			putchar((num % 10) + '0');
