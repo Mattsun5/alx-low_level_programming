@@ -5,13 +5,14 @@
  */
 int main(void)
 {
-	int num;
+	char num;
 
 	num = 0;
 	while (num < 10)
 	{
-		putchar(num);
+		int putchar(num);
 		num++;
 	}
+	printf("\n");
 	return (0);
 }
