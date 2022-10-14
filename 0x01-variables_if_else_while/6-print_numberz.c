@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return - 0 when successful
+ * Return: 0 when successful
  */
 int main(void)
 {
-	long num;
+	int num;
 
 	num = 0;
 	while (num < 10)
