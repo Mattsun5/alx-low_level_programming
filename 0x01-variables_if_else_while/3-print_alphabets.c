@@ -20,6 +20,6 @@ int main(void)
 		putchar(alphabet_upper);
 		alphabet_upper++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
