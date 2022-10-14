@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char num;
+	signed char num;
 
 	num = 0;
 	while (num < 10)
