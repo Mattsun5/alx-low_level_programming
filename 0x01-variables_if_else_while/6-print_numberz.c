@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long num;
+	char num;
 
 	num = 0;
 	while (num < 10)
