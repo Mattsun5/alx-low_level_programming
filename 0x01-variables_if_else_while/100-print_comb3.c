@@ -16,7 +16,7 @@ int main(void)
 		{
 			putchar((num % 10) + '0');
 			putchar((num1 % 10) + '0');
-
+			num1++;
 			if ((num == 8) && (num1 == 9))
 			{
 				continue;
@@ -24,6 +24,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+		num++;
 	}
 	putchar('\n');
 	return (0);
