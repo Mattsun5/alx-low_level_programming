@@ -15,11 +15,11 @@ int main(void)
 		putchar(alphabet_lower);
 		alphabet_lower++;
 	}
-	while (alphabet_upper <= "Z")
+	while (alphabet_upper <= 'Z')
 	{
 		putchar(alphabet_upper);
 		alphabet_upper++;
 	}
-	printf("\n");
+	printf('\n');
 	return (0);
 }
