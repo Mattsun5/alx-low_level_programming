@@ -2,7 +2,7 @@
  * main - entry point
  * Return: 0 when successful
  */
-#include <stdio.h>
+#include "main.h"
 int main(void)
 {
 	_putchar('_');
