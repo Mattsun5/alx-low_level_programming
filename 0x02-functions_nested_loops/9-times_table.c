@@ -9,7 +9,7 @@ void times_table(void)
 	num = 0;
 	while (num <= 9)
 	{
-		_putchar('0);
+		_putchar('0');
 		mult = 1;
 		while (mult <= 9)
 		{
