@@ -13,6 +13,8 @@ void print_square(int size)
 		{
 			for (wd = 0; wd < size; wd++)
 				_putchar('#');
+			if (ht == size - 1)
+				break;
 			_putchar('\n');
 		}
 	}
