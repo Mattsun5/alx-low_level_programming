@@ -25,6 +25,6 @@ char *cap_string(char *s)
 			}
 		}
 		count++;
-	}i
+	}
 	return (s);
 }
