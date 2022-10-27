@@ -46,7 +46,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	return (r + r_index + 1);
 }
 /**
- * infinit_add - adds two numbers
+ * infinite_add - adds two numbers
  * @n1: first number to add
  * @n2: second number to add
  * @r: buffer to store the result
@@ -55,7 +55,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
  * Return: (r can store sum) - a pointer to the result
  * 	   (r cannot store sum) - 0
  */
-char *infinite_add(char *n1, charn2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int index, n1_len = 0, n2_len = 0;
 
