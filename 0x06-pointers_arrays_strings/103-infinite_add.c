@@ -11,7 +11,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r);
  * @r_index: current index of the buffer
  *
  * Return: (r can store the sum) - a pointer to the result
- * 	   (r cannot store the sum) - 0
+ *	   (r cannot store the sum) - 0
  */
 char *add_strings(char *n1, char *n2, char *r, int r_index)
 {
@@ -54,7 +54,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
  * @size_r: buffer size
  *
  * Return: (r can store sum) - a pointer to the result
- * 	   (r cannot store sum) - 0
+ *	   (r cannot store sum) - 0
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
