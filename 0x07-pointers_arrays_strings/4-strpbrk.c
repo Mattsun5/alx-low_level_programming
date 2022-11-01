@@ -3,7 +3,7 @@
  * _strpbrk - searches a string for any of a set of bytes
  * @s: first string
  * @accept: second string
- * Return: a pinter to the byte in s that matches one of the 
+ * Return: a pinter to the byte in s that matches one of the
  * bytes in acccept, or NULL if no such is found
  */
 char *_strpbrk(char *s, char *accept)
