@@ -6,17 +6,17 @@
  * @height: of the array
  * Return: pointer of an array of integers
  */
-int **alloc_grid(int width, int heigth)
+int **alloc_grid(int width, int height)
 {
 	int **gridout;
 	int i, j;
-	if (with < || 1 height < 1)
+	if (width < 1 || height < 1)
 		return (NULL);
 	gridout = malloc(height * sizeof(int *));
 	if (gridout == NULL)
 	{
 		free(gridout);
-		return (NULL):
+		return (NULL);
 	}
 	for (i = 0; i < height; i++)
 	{
