@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * _isdigit - checks if character is digit 
+ * _isdigit - checks if character is digit
  * @c: the character to check
  * Return: 1 if digit, 0 otherwise
  */
@@ -17,14 +17,14 @@ int _isdigit(int c)
  * @s: the string whose length to check
  * Return: integer length of string
  */
- int _strlen(char *s)
- {
- 	int i = 0;
+int _strlen(char *s)
+{
+	int i = 0;
 
 	while (*s++)
 		i++;
 	return (i);
- }
+}
 /**
  * big_multiply - multiply two big number strings
  * @s1: first big number string
@@ -34,7 +34,7 @@ int _isdigit(int c)
 char *big_multiply(char *s1, char *s2)
 {
 	char *r;
-	int 11, 12, a, b, c, x;
+	int l1, l2, a, b, c, x;
 
 	l1 = _strlen(s1);
 	l2 = _strlen(s2);
@@ -48,7 +48,7 @@ char *big_multiply(char *s1, char *s2)
 		if (!_isdigit(s1[l1]))
 		{
 			free(r);
-			printf("Error\n"), exit(98);	
+			printf("Error\n"), exit(98);
 		}
 		a = s1[l1] - '0';
 		c = 0;
