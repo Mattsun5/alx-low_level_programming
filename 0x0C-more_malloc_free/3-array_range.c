@@ -4,7 +4,7 @@
  * array_range - creates an array of integers
  * @min: minimum value
  * @max: maximum value
- * REturn: pointer to the newly created array
+ * Return: pointer to the newly created array
  * if man > mix, returns NULL
  * if malloc fails< returns NULL
  */
