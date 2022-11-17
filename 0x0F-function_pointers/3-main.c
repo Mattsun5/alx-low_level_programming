@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	operation = get-op_func)argv[2]);
+	operation = get_op_func(argv[2]);
 
 	if (operation == NULL)
 	{
@@ -34,6 +34,6 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	printf("%d\n", operation9a, b));
+	printf("%d\n", operation(a, b));
 	return (0);
 }
