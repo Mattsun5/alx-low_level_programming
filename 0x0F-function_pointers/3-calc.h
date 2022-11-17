@@ -8,7 +8,7 @@
  *
  * @op: the operator
  * @f: funcction asssociated
- * */
+ */
 typedef struct op
 {
 	char *op;
