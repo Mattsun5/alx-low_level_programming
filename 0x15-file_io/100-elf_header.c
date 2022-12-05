@@ -24,7 +24,7 @@ if (sys == '1')
 {
 begin = 26;
 printf("80");
-for (i = begin; i >= 22i--; )
+for (i = begin; i >= 22; i--)
 {
 if (ptr[i] > 0)
 printf("%x", ptr[i]);
